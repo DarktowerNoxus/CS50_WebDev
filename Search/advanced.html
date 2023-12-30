@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <style>
+            h1 {
+                text-align: left;
+                color: #d93025;
+            }
+            .rounded-corners {
+                border-radius: 20px;
+                border: 1px solid #999999;
+                padding: 5px;
+                width: 200px;
+                margin: 10px;
+            }
+            .top-right {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top-right">
+            <a href = "index.html">Google Search</a> |
+            <a href = "image.html">Image Search</a>
+
+        </div>
+        <div>
+            <div style="text-align:center">
+                <a href="index.html">
+                <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+                </a>
+        </div>
+        <h1>
+            Advanced Search
+        </h1>
+        <div style="display: flex; justify-content: left;">
+            <form action="https://www.google.com/search" style="text-align: left;">
+                <div style="display: grid;">
+                    <input type="text" name="as_q" class="rounded-corners">
+                    <div style="justify-self: center;">
+                        <input type="submit" value="all these words" style="background-color: #3079ed; color: white;">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div style="display: flex; justify-content: left;">
+            <form action="https://www.google.com/search" style="text-align: left;">
+                <div style="display: grid;">
+                    <input type="text" name="as_epq" class="rounded-corners">
+                    <div style="justify-self: center;">
+                        <input type="submit" value="this exact word or phrase" style="background-color: #3079ed; color: white;">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div style="display: flex; justify-content: left;">
+            <form action="https://www.google.com/search" style="text-align: left;">
+                <div style="display: grid;">
+                    <input type="text" name="as_oq" class="rounded-corners">
+                    <div style="justify-self: center;">
+                        <input type="submit" value="any of these words" style="background-color: #3079ed; color: white;">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div style="display: flex; justify-content: left;">
+            <form action="https://www.google.com/search" style="text-align: left;">
+                <div style="display: grid;">
+                    <input type="text" name="as_eq" class="rounded-corners">
+                    <div style="justify-self: center;">
+                        <input type="submit" value="none of these words" style="background-color: #3079ed; color: white;">
+                    </div>
+                </div>
+            </form>
+        </div>
+            </form>
+        </div>
+    </body>
+</html>

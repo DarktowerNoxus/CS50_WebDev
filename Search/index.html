@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <style>
+            .rounded-corners {
+                border-radius: 20px;
+                border: 1px solid #999999;
+                padding: 5px;
+                width: 200px;
+                margin: 10px;
+            }
+            .top-right {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top-right">
+            <a href = "image.html">Image Search</a> |
+            <a href = "advanced.html">Advanced Search</a>
+
+        </div>
+        <div style="text-align: center;">
+            <a href="index.html">
+            <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </a>
+            <form action="https://www.google.com/search">
+                <input type="text" name="q" class="rounded-corners"><br>
+                <input type="submit" value="Google Search">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky">
+            </form>
+        </div>
+    </body>
+</html>
